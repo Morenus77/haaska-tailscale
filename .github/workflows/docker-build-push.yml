@@ -3,7 +3,7 @@ name: ci
 on:
   push:
     paths-ignore:
-      - 'README.md'
+      - 'READMExxx.md'
     branches:
       - 'main'
 
