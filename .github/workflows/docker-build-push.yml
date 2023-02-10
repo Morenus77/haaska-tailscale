@@ -1,11 +1,7 @@
 name: ci
 
 on:
-  push:
-    ##paths-ignore:
-   ##   - 'READMExxx.md'
-    branches:
-      - 'main'
+  workflow_dispatch: {}
 
 jobs:
   docker:
